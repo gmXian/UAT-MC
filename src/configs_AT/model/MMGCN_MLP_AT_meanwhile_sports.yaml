@@ -1,0 +1,12 @@
+embedding_size: 64
+n_layers: 2
+reg_weight: [0.001]
+learning_rate: [0.0005]
+align_weight: [1.0]
+# reg_weight: [0.001]
+# learning_rate: [0.0005]
+epsilons: [0.025,0.05,0.075]
+adv_weight: [10]
+adv_align_weight: [1]
+hyper_parameters: ["reg_weight", "learning_rate","align_weight","epsilons","adv_weight","adv_align_weight"]
+

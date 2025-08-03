@@ -1,0 +1,7 @@
+embedding_size: 64
+reg_weight: [1.0]
+align_weight: [1.0]
+epsilons: [0.025,0.05,0.075]
+adv_weight: [5]
+adv_align_weight: [3]
+hyper_parameters: ["reg_weight","align_weight","epsilons","adv_weight","adv_align_weight"]

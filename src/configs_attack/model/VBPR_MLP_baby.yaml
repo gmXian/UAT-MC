@@ -1,0 +1,5 @@
+embedding_size: 64
+reg_weight: [1.0]
+align_weight: [1.0]
+
+hyper_parameters: ["reg_weight","align_weight"]
